@@ -1,5 +1,8 @@
 import Crema from '../assests/coffee-crema.webp';
-import Einspanner from '../assests/einspanner.webp';
+import Einspanner from '../assests/einspanner2.jpg';
+import Img1 from '../assests/Img1.png';
+import Img2 from '../assests/Img2.png';
+
 export interface NavItem {
     id: number;
     title: string;
@@ -27,17 +30,17 @@ export const NavBarData: NavItem[] = [
 export const CoffeeData = [
     {
         id: 1,
-        image: Crema,
+        image: Img1,
         title: 'coffee crema',
-        subtilte: 'first cuppa of the day',
+        subtitle: 'first cuppa of the day',
         strength: 'moderate-high',
         bgColor: '#271300'
     },
     {
         id: 2,
-        image: Einspanner,
+        image: Img2,
         title: 'einspanner',
-        subtilte: 'An Einspänner is a Viennese coffee drink consisting of espresso topped with whipped cream. It is traditionally served in a glass rather than a mug or a coffee cup',
+        subtitle: 'An Einspänner is a Viennese coffee drink consisting of espresso topped with whipped cream. It is traditionally served in a glass rather than a mug or a coffee cup',
         strength: 'moderate-high',
         bgColor: '#ece0d1'
     }
